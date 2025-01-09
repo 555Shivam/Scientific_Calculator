@@ -1,101 +1,91 @@
-Scientific Calculator in React
+# Scientific Calculator in React
 
-Objective
+## Objective
 
 The goal of this project is to assess front-end development skills, state management, and the ability to replicate a sophisticated UI/UX using React. The objective is to build a web-based clone of the macOS Scientific Calculator with a responsive design and full mathematical functionalities.
 
-Features
+## Features
 
-UI/UX
+### UI/UX
 
-Mimics the macOS Scientific Calculator's look and feel.
+- Mimics the macOS Scientific Calculator's look and feel.
+- Responsive design.
+- Uses Roboto font.
+- Clear display for input and result.
 
-Responsive design.
+### Functionalities
 
-Uses Roboto font.
+#### Basic Operations:
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Percentage (%)
+- Sign toggle (+/-)
 
-Clear display for input and result.
+#### Advanced Functions:
+- Trigonometry: sin, cos, tan (radians and degrees)
+- Logarithms: ln (natural log), log10 (log base 10)
+- Exponents and roots: x², x³, x^y, e^x, 10^x, square root (√x), cube root (∛x), y-root (y√x)
+- Factorial (x!)
+- Constants: π (pi), e (Euler's number)
+- Scientific notation (EE)
+- Hyperbolic functions: sinh, cosh, tanh
+- Random number generation (Rand)
+- Parentheses for grouped expressions
+- Memory functions: MC (clear memory), M+ (add to memory), M- (subtract from memory), MR (recall memory)
 
-Functionalities
+### Special Feature
 
-Basic Operations:
+- Confetti explosion occurs when 99 and 33 are used in an operation (e.g., 99 + 33 or 99 * 33).
 
-Addition (+), Subtraction (-), Multiplication (*), Division (/).
+## State Management
 
-Percentage (%).
+- Handles user input, operations, and results efficiently.
+- Supports clear, delete, and reset functionalities.
+- Allows result chaining (using the previous result as an operand for new calculations).
 
-Sign toggle (+/-).
+## Edge Case Handling
 
-Advanced Functions:
+- Division by zero.
+- Large number calculations.
 
-Trigonometry: sin, cos, tan (radians and degrees).
+## Installation and Setup
 
-Logarithms: ln (natural log), log10 (log base 10).
+1. Clone the repository:
 
-Exponents and roots: x², x³, x^y, e^x, 10^x, square root (√x), cube root (∛x), y-root (y√x).
+    ```bash
+    git clone https://github.com/555Shivam/Scientific_Calculator
 
-Factorial (x!).
+    cd scientific_calculator
+    ```
 
-Constants: π (pi), e (Euler's number).
+2. Install dependencies:
 
-Scientific notation (EE).
+    ```bash
+    npm install
+    ```
 
-Hyperbolic functions: sinh, cosh, tanh.
+3. Start the development server:
 
-Random number generation (Rand).
+    ```bash
+    npm run dev
+    ```
 
-Parentheses for grouped expressions.
+4. Open the app in your browser:
 
-Memory functions: MC (clear memory), M+ (add to memory), M- (subtract from memory), MR (recall memory).
+    [http://localhost:5173/](http://localhost:5173/)
 
-Special Feature
+## Technologies Used
 
-Confetti explosion occurs when 99 and 33 are used in an operation (e.g., 99 + 33 or 99 * 33).
+- React.js
+- Vite
+- CSS (for styling)
+- React-Confetti-Explosion (for special effects)
 
-State Management
+## Output Screenshot
 
-Handles user input, operations, and results efficiently.
+![image](https://github.com/user-attachments/assets/9e275ee2-56e1-423d-a5ab-152f832c58b6)
 
-Supports clear, delete, and reset functionalities.
-
-Allows result chaining (using the previous result as an operand for new calculations).
-
-Edge Case Handling
-
-Division by zero.
-
-Large number calculations.
-
-Installation and Setup
-
-Clone the repository:
-
-git clone <repository-url>
-cd scientific_calculator
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-Open the app in your browser:
-
-http://localhost:5173/
-
-Technologies Used
-
-React.js
-
-Vite
-
-CSS (for styling)
-
-React-Confetti-Explosion (for special effects)
-
-Output Screenshot
-![image](https://github.com/user-attachments/assets/823a5d1d-0140-41d1-bdc2-580344d5136b)
 
 
